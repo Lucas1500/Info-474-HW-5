@@ -15,8 +15,8 @@ d3.json('nygeo.json').then(function(data) {
 
         const albersProj = d3.geoAlbers()
             .scale(75000)
-            .rotate([71.0547, 0])
-            .center([-2.9, 40.7])
+            .rotate([74.0060, 0])
+            .center([0, 40.7128])
             .translate([m.width/2, m.height/2]);
 
         const geoPath = d3.geoPath()
